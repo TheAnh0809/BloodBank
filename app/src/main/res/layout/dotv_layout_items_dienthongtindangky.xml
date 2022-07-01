@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/dotv_items_dienthongtindangky" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Quý vị vui lòng trả lời đầy đủ câu hỏi dưới đây!"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Để đảm bảo an toán sức khoẻ cho quý vị và người bệnh nhận máu, xin quý vị trả lừoi trung thực và chính xác. Nếu có bất kì nghi ngờ nào về nguy cơ mắc bệnh truyền nhiễm, xin quý vị hãy không hiến máu."/>
+    </LinearLayout>
+
+</RelativeLayout>

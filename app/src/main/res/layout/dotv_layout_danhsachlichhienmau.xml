@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_history">
+    <include
+        android:id="@+id/dotv_toolbar_danhsachlichhienmau"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ListView
+        android:id="@+id/dotv_list_danhsachlichhienmau"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginStart="15sp"
+        android:layout_marginEnd="15sp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/dotv_footer_danhsachlichhienmau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dotv_toolbar_danhsachlichhienmau">
+    </ListView>
+    <include
+        android:id="@+id/dotv_footer_danhsachlichhienmau"
+        layout="@layout/toolbar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <ImageButton
+        android:id="@+id/dotv_btnadd_danhsachlichhienmau"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/dotv_btnadd_danhsachlichhienmau"
+        android:contentDescription="Thêm lịch hiến máu"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

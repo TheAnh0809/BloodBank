@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mad_n5_t16">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MADN5T16">
+        <activity
+            android:name=".Starter"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".employee.DangKyHienMauActivityEmployee"
+            android:exported="false" />
+        <activity
+            android:name=".TheAnh.Activity.User.ThongTinCaNhan_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TheAnh.Activity.User.ChinhSuaThongTinCaNhan_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".user.ChiTietDiaDiemHienMauActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.DanhSachLichHienMauActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.DangKyHienMauActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.DienThongTinDangKyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.DangKyThanhCongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".employee.LichSuSuDungMauActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TheAnh.Activity.User.DiaDiem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TheAnh.Activity.Employee.DiaDiemHienMauActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TheAnh.Activity.Employee.DanhSachLichHM_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TheAnh.Activity.Employee.ThemLichHienMau_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".user.MainActivityUser"
+            android:exported="false" />
+        <activity
+            android:name=".user.BloodDonationHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".employee.MainActivityEmployee"
+            android:exported="false" />
+        <activity
+            android:name=".user.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.LoginActivity"
+            android:exported="false">
+        </activity>
+        <!--        <activity-->
+        <!--            android:name=".ThongBaoActivity"-->
+        <!--            android:exported="false"-->
+        <!--            android:label="Thông báo"-->
+        <!--            android:parentActivityName=".MainActivity" />-->
+    </application>
+
+</manifest>

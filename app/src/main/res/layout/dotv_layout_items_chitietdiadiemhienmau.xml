@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/dotv_retangle_item"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dotv_thoigian_chitietdiadiemhienmau"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:layout_marginEnd="25sp"
+            android:text="thoigian - thoigian"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/dotv_tieude_chitietdiadiemhienmau"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:layout_marginEnd="25sp"
+            android:text="title"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/dotv_circle_item"
+        android:gravity="center"
+        android:layout_weight="0"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dotv_ngay_chitietdiadiemhienmau"
+            android:textColor="@color/white"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:text="ngay"
+            android:textAlignment="center"
+            android:textSize="11dp" />
+        <TextView
+            android:id="@+id/dotv_thangnam_chitietdiadiemhienmau"
+            android:textColor="@color/white"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="thang-nam"
+            android:textAlignment="center"
+            android:textSize="10dp" />
+    </LinearLayout>
+</RelativeLayout>

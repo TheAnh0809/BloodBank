@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="15sp"
+    android:layout_marginBottom="14sp">
+    <TextView
+        android:id="@+id/dotv_index_dienthongtindangky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dotv_circle_index"
+        android:text="1"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/dotv_cauhoi_dienthongtindangky"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:text="Cau hoiCau hoiCau hoiCau hoiCau hoiCau hoiCau hoiCau hoiCau hoi"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginStart="10sp">
+        <RadioButton
+            android:id="@+id/dotv_co_dienthongtindangky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+        <RadioButton
+            android:id="@+id/dotv_khong_dienthongtindangky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+</LinearLayout>

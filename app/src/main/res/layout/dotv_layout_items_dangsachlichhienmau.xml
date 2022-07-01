@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:layout_marginStart="10sp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/dotv_retangle_item"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dotv_thoigian_danhsachlichhienmau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25sp"
+            android:layout_marginEnd="25sp"
+            android:gravity="center"
+            android:text="thoigian-thoigian"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/dotv_diadiem_danhsachlichhienmau"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="25sp"
+            android:layout_marginEnd="25sp"
+            android:gravity="center"
+            android:text="diadiem"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/dotv_btndel_danhsachlichhienmau"
+            android:layout_width="23dp"
+            android:layout_height="29dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/dotv_recyclebin" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/dotv_circle_item"
+        android:gravity="center"
+        android:layout_weight="0"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dotv_ngay_danhsachlichhienmau"
+            android:textColor="@color/white"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:text="ngay"
+            android:textAlignment="center"
+            android:textSize="11dp" />
+        <TextView
+            android:id="@+id/dotv_thangnam_danhsachlichhienmau"
+            android:textColor="@color/white"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="thang-nam"
+            android:textAlignment="center"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

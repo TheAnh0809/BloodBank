@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheAnh.Activity.User.ThongTinCaNhan_Activity"
+    android:background="@mipmap/basebg">
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_corner_radius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:gravity="center"
+            android:text="No name"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textImageName"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="160dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bg_cicle_100x100"
+            android:fontFamily="@font/concert_one"
+            android:gravity="center"
+            android:text="N"
+            android:textColor="@color/white"
+            android:textSize="90dp" />
+
+    </FrameLayout>
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_gravity="top"
+        android:layout_weight="0"
+        />
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/toolbar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_weight="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/include2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/frameThongTinNguoiDung"
+                android:layout_width="330dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="36dp"
+                android:background="@mipmap/retangle1">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Cập nhập thông tin người dùng"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    app:srcCompat="@drawable/profile" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    app:srcCompat="@drawable/next" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frameThongBao"
+                android:layout_width="330dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@mipmap/retangle1">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-3dp"
+                    android:text="Thông báo"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    app:srcCompat="@drawable/bell" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    app:srcCompat="@drawable/next" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frameDangXuat"
+                android:layout_width="330dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="36dp"
+                android:background="@mipmap/rectangle3">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-3dp"
+                    android:text="Đăng xuất"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    app:srcCompat="@drawable/logout" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

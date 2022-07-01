@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="303dp"
+    android:paddingTop="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="10dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rlHistory"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/history_card_custom">
+
+        <TextView
+            android:id="@+id/tvLan"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingTop="22dp"
+            android:text="Lần"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTimes"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLan"
+            android:layout_marginLeft="15dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingBottom="22dp"
+            android:text="x" />
+
+        <TextView
+            android:id="@+id/tvDatedonate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/tvTimes"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:text="02/12/2020"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvAmountdonate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvDatedonate"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/tvTimes"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:text="350ml"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvLocationdonate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAmountdonate"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/tvTimes"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:text="Học viện Bưu chính Viễn thông"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>

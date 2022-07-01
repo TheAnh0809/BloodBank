@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_navigation"
+    app:startDestination="@id/diaDiemHienMauActivity">
+    <activity
+        android:id="@+id/mh_thongtincanhan2"
+        android:name="com.example.mad_n5_t16.mh_thongtincanhan"
+        android:label="activity_mh_thongtincanhan"
+        tools:layout="@layout/activity_mh_thongtincanhan" />
+    <activity
+        android:id="@+id/diaDiemHienMauActivity"
+        android:name="com.example.mad_n5_t16.TheAnh.Activity.Employee.DiaDiemHienMauActivity"
+        android:label="DiaDiemHienMauActivity" />
+    <activity
+        android:id="@+id/mainActivityUser"
+        android:name="com.example.mad_n5_t16.user.MainActivityUser"
+        android:label="MainActivityUser" />
+    <activity
+        android:id="@+id/danhSachLichHM_Activity"
+        android:name="com.example.mad_n5_t16.TheAnh.Activity.Employee.DanhSachLichHM_Activity"
+        android:label="DanhSachLichHM_Activity" />
+    <activity
+        android:id="@+id/dangKyHienMauActivity"
+        android:name="com.example.mad_n5_t16.user.DangKyHienMauActivity"
+        android:label="DangKyHienMauActivity" />
+</navigation>

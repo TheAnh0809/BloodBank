@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Màn hình điều hướng đến các giao diện khác"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnMHThongBao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hướng đến Thông báo"/>
+
+            <Button
+                android:id="@+id/btnMHDangKyThanhCong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hướng đến MH Đăng ký thành công"
+                />
+
+            <Button
+                android:id="@+id/btnMHDienThongTinDangKy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hướng đến MH điền thông tin đăng ký"/>
+
+            <Button
+                android:id="@+id/btnMHDangKyHienMau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hướng đến MH đăng ký hiến máu"/>
+
+            <Button
+                android:id="@+id/btnMHDanhSachLichSuHienMau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hướng đến MH danh sách lịch sử hiến máu"/>
+
+            <Button
+                android:id="@+id/btnMHChiTietDiaDiemHienMau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hướng đến MH chi tiết địa điểm hiến máu"/>
+
+            <Button
+                android:id="@+id/btnHuongDangNhap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HƯỚNG ĐẾN ĐĂNG NHẬP" />
+
+            <Button
+                android:id="@+id/btnHuongDangKy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HƯỚNG ĐẾN ĐĂNG KÝ" />
+
+            <Button
+                android:id="@+id/btnHuongLichSuHienMau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HƯỚNG ĐẾN LỊCH SỬ HIẾN MÁU" />
+
+            <Button
+                android:id="@+id/btnMHChinhUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hướng đến MH Chính" />
+
+            <Button
+                android:id="@+id/btnMHChinhEmployee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hướng đến MH Chính Employee" />
+    <Button
+        android:id="@+id/btnThongtinnguoidung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đến thông tin người dùng" />
+
+    <Button
+        android:id="@+id/btnMHChinhEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hướng đến MH Chính Employee" />
+
+            <Button
+                android:id="@+id/btnThongtinnguoidung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đến thông tin người dùng" />
+
+
+            <Button
+                android:id="@+id/btnMHLichSuSuDungMau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hướng đến MH Chính Employee" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

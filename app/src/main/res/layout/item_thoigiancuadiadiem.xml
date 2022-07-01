@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewGioDiaDiem"
+            android:layout_width="320dp"
+            android:layout_height="120dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/retanger23"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_cicle_60x60"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:id="@+id/textNgay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="3dp"/>
+
+            <TextView
+                android:id="@+id/textThangNawm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#FDFDFD"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imageButtonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="#00612A2A"
+            app:srcCompat="@drawable/pin" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/layout_notification"
+    android:gravity="center"
+    tools:context=".user.RegisterActivity">
+
+    <EditText
+        android:id="@+id/ettCCCD"
+        android:layout_width="226dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corner_10dp"
+        android:hint="CCCD"
+        android:inputType="textPersonName"
+        android:paddingLeft="18dp"
+        android:paddingTop="10dp"
+        android:paddingRight="18dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/ettUsernameregister"
+        android:layout_width="226dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corner_10dp"
+        android:hint="Tài khoản"
+        android:inputType="textPersonName"
+        android:paddingLeft="18dp"
+        android:paddingTop="10dp"
+        android:paddingRight="18dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etpPasswordregister"
+        android:layout_width="226dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:paddingLeft="18dp"
+        android:paddingTop="10dp"
+        android:paddingRight="18dp"
+        android:paddingBottom="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_corner_10dp"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+    <EditText
+        android:id="@+id/etpPasswordregisteragain"
+        android:layout_width="226dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Nhập lại mật khẩu"
+        android:paddingLeft="18dp"
+        android:paddingTop="10dp"
+        android:paddingRight="18dp"
+        android:paddingBottom="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_corner_10dp"
+        android:textColorHint="@color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="159dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="Đăng Ký"
+        android:background="@drawable/rounded_button_10dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegisterBack"
+        android:layout_width="159dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="Quay lại"
+        android:background="@drawable/rounded_button_10dp" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dotv_retangle_blue_item"/>
+    <LinearLayout
+        android:layout_width="302.65dp"
+        android:layout_height="147.14dp"
+        android:background="@drawable/dotv_retangle_item"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dotv_diadiem_dangkyhienmau"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="diadiem"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="10sp"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/dotv_thoigian_dangkyhienmau"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="thoigian"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10sp"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/dotv_luongnguoi_dangkyhienmau"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="songuoidangky"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10sp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</RelativeLayout>

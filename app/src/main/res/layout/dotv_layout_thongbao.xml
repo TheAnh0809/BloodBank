@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/layout_notification"
+    tools:context=".ThongBaoActivity">
+
+    <include
+        android:id="@+id/dotv_toolbar_thongbao"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/dotv_footer_thongbao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dotv_toolbar_thongbao">
+
+        <ListView
+            android:id="@+id/dotv_danhsachthongbao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:layout_marginStart="15sp"
+            android:layout_marginEnd="15sp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10.0sp">
+        </ListView>
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/dotv_footer_thongbao"
+        layout="@layout/toolbar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_weight="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
